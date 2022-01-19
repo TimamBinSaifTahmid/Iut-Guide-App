@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".StudentAccount"
+    android:orientation="vertical">
+
+<ScrollView
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/Studentb6"
+            android:layout_width="122dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="148dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/btn_selector"
+            android:textColor="@color/white"
+            android:text="Course"
+             />
+
+        <Button
+        android:id="@+id/classes"
+        android:layout_width="122dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="148dp"
+
+        android:text="Classes"
+            android:background="@drawable/btn_selector"
+            android:textColor="@color/white" />
+
+        <Button
+        android:id="@+id/activities"
+        android:layout_width="122dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="148dp"
+
+        android:text="Activities"
+            android:background="@drawable/btn_selector"
+            android:textColor="@color/white"
+         />
+
+        <Button
+        android:id="@+id/library"
+        android:layout_width="122dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="148dp"
+
+        android:text="Library"
+            android:background="@drawable/btn_selector"
+            android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/event"
+        android:layout_width="122dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="148dp"
+
+        android:text="Events"
+        android:background="@drawable/btn_selector"
+        android:textColor="@color/white" />
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

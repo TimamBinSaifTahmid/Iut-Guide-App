@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">IutGuide</string>
+    <string-array name="class_List">
+        <item> CSE 4341 </item>
+        <item> CSE 4303 </item>
+        <item> CSE 4304 </item>
+        <item> CSE 4309 </item>
+    </string-array>
+    <string-array name="event_list">
+        <item> Industrial Collaboration (08 February) </item>
+        <item> IUTDS Freshers (10 February) </item>
+        <item> IUT CBS Freshers (12 February) </item>
+        <item> ICT FEST (3 March) </item>
+    </string-array>
+    <string-array name="event_list123">
+        <item> Industrial Collaboration (08 February) </item>
+        <item> IUTDS Freshers (8 February) </item>
+        <item> IUT CBS Freshers (19 February) </item>
+        <item> ICT FEST (1 March) </item>
+    </string-array>
+    <string-array name="country_Name">
+        <item> BANGLADESH</item>
+        <item> INDIA </item>
+        <item> SRI LANKA </item>
+        <item> AUSTRALIA </item>
+    </string-array>
+
+
+    <string-array name="Task">
+        <item> Quiz </item>
+        <item> Assignment </item>
+        <item> Presentation </item>
+    </string-array>
+
+</resources>

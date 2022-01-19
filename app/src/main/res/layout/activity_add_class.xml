@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddClass"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+
+    <RadioButton
+        android:id="@+id/monday"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="MON"></RadioButton
+        >
+    <RadioButton
+        android:id="@+id/tuesday"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TUE"></RadioButton
+        >
+        <RadioButton
+            android:id="@+id/weddey"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="WED"></RadioButton
+            >
+        <RadioButton
+            android:id="@+id/thuday"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="THU"></RadioButton
+            >
+    <RadioButton
+        android:id="@+id/friday"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="FRI"></RadioButton
+        >
+
+    <EditText
+        android:id="@+id/addBatch"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Batch name (CSE18A)"
+        android:textSize="20dp"
+        ></EditText>
+    <EditText
+        android:id="@+id/startsat"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Starts At"
+        android:textSize="20dp"
+        ></EditText>
+    <EditText
+        android:id="@+id/endsat"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:hint="Ends At"
+        android:textSize="20dp"
+        ></EditText>
+
+    <Button
+        android:id="@+id/addClassButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:text="ADD CLASS"
+        android:background="@drawable/btn_selector"
+        android:textColor="@color/white"
+        ></Button>
+
+
+
+</LinearLayout>

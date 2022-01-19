@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CourseDetails"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+    <Button
+        android:id="@+id/AttendenceButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:text="ATTENDENCE"
+        android:background="@drawable/btn_selector"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/ResourcesButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:text="RESOURCES"
+        android:background="@drawable/btn_selector"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/PercentageButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:text="PERCENTAGE"
+        android:background="@drawable/btn_selector"
+        android:textColor="@color/white"
+        />
+    <Button
+        android:id="@+id/TasksButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:text="TASKS"
+        android:background="@drawable/btn_selector"
+        android:textColor="@color/white"
+        />
+
+
+    <Button
+        android:id="@+id/AddClassButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="30dp"
+        android:textSize="25dp"
+        android:text="ADD CLASS"
+        android:background="@drawable/btn_selector"
+        android:textColor="@color/white"
+        />
+
+
+
+</LinearLayout>

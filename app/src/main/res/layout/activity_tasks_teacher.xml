@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TasksTeacher"
+    android:orientation="vertical"
+    android:layout_margin="20dp">
+
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <RadioButton
+                android:id="@+id/quiz"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quiz"></RadioButton
+                >
+            <RadioButton
+                android:id="@+id/assignment"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Assignment"></RadioButton
+                >
+            <RadioButton
+                android:id="@+id/presentation"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Presentation"></RadioButton
+                >
+
+
+    <EditText
+        android:id="@+id/taskTitle"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:hint="Title" />
+
+    <EditText
+        android:id="@+id/taskTime"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:hint="Time"
+
+ />
+
+    <EditText
+        android:id="@+id/taskDate"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:hint="Date (MM/DD)"
+/>
+
+    <EditText
+        android:id="@+id/taskDescription"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:hint="Description" />
+
+
+
+    <Button
+        android:id="@+id/taskAddButton"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="15dp"
+        android:text="ADD"
+        android:background="@drawable/btn_selector"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/qDescrip" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
