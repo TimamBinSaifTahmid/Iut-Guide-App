@@ -4,6 +4,7 @@ The main features of this app are:
 1. Attendance management
 2. Course management
 3. Notice management
+
 Language and technologies used for the app are:
 1. Java
 2. Xml
